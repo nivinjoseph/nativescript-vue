@@ -1,5 +1,5 @@
 {
-  "name": "@nivinjoseph/nativescript-vue",
+  "name": "n-nativescript-vue",
   "version": "2.4.2",
   "description": "NativeScript and Vue integration",
   "main": "dist/index.js",
