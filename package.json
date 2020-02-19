@@ -11,6 +11,7 @@
     "preuninstall.js"
   ],
   "typings": "index.d.ts",
+  "types": "index.d.ts",
   "scripts": {
     "test": "jest",
     "tdd": "jest --watch",
