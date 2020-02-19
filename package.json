@@ -25,7 +25,8 @@
     "changelog": "conventional-changelog --release-count 0 --outfile CHANGELOG.md --preset angular",
     "commit": "git-cz",
     "postinstall": "node postinstall.js",
-    "preuninstall": "node preuninstall.js"
+    "preuninstall": "node preuninstall.js",
+    "publish-package": "npm version patch && git push && npm publish --access=public"
   },
   "repository": {
     "type": "git",
