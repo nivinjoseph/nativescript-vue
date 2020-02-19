@@ -12,7 +12,7 @@ samples/hooks/
 samples/mochawesome-report/
 samples/e2e/reports/
 test-results.xml
-dist/
-packages/nativescript-vue-template-compiler/index.js
+# dist/
+# packages/nativescript-vue-template-compiler/index.js
 !docs/dist/
 RELEASE_NOTES*.md

@@ -26,7 +26,7 @@ global.process.env = global.process.env || {}
 `
 
 const resolveVue = p => {
-  return path.resolve(process.cwd(), 'node_modules', 'vue/src/', p) + '/'
+  return path.resolve(process.cwd(), 'vendor', 'vue/src/', p) + '/'
 }
 const aliases = {
   vue: resolveVue('core/index'),

@@ -1,5 +1,5 @@
 {
-  "name": "nativescript-vue",
+  "name": "@nivinjoseph/nativescript-vue",
   "version": "2.4.0",
   "description": "NativeScript and Vue integration",
   "main": "dist/index.js",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nativescript-vue/nativescript-vue.git"
+    "url": "git+https://github.com/nivinjoseph/nativescript-vue.git"
   },
   "keywords": [
     "vuejs",
@@ -120,12 +120,6 @@
   "prettier": {
     "semi": false,
     "singleQuote": true
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -e $GIT_PARAMS"
-    }
   },
   "lint-staged": {
     "linters": {
